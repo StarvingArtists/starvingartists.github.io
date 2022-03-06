@@ -5,6 +5,31 @@
   <script src="main.js"></script>
 </head>
 <body>
+  
+  
+<div id="inputSearch" class="container">
+  <h2>Vuejs Search Dropdown</h2>
+
+<div class="form-group">
+        <label>what is your occupation?</label>  
+            <div class="link-dropdown form-control">
+			<div class="link-dropdown-search">
+                    <div class="link-dropdown-display-item" v-on:click= "toggleDropdown()" v-if="!open">
+                        <div>{{displayItem()}}</div>                        
+                    </div>
+                    <input v-model="searchTerm" placeholder="Search and Select" id="displayValue" v-if="open" v-focus v-on:click= "toggleDropdown()"/>
+                <div class="link-dropdown-button" v-on:click= "toggleDropdown()">
+                    <div class="dropdown-arrow"></div>
+                </div>
+			</div>
+			<div class="link-dropdown-panel" v-show="open">
+				<div class="link-dropdown-item placeholder" v-on:click= "itemClicked(index)" v-for = "(item,index) in items" id="realitems" v-show="item.dd_visible">
+                    <option>{{item.field}}</option>
+				</div>
+			</div>
+		</div>
+    </div>
+</div>
 
 <section>
   <!--for demo wrap-->
