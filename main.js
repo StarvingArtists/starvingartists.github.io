@@ -18,6 +18,7 @@ $(window).on("load resize ", function() {
 }).resize();
 
 let dropdown = $('#frameDropdown');
+let frameList = $('#frameList');
 dropdown.empty();
 
 dropdown.append('<option selected="true" disabled>Choose State/Province</option>');
@@ -29,6 +30,7 @@ $.getJSON("values.json", function (data) {
           $.each(entry, function (key2, entry2) {
               console.log(entry2.name)
               dropdown.append($('<option></option>').attr('value', entry.name).text(entry2.name));
+              frameList.append($('<h1></h1>').attr('value', entry.name).text(entry2.name));
           })
            
       }
