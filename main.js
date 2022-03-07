@@ -21,6 +21,12 @@ dropdown.prop('selectedIndex', 0);
 
 $.getJSON("values.json", function (data) {
   $.each(data, function (key, entry) {
-    dropdown.append($('<option></option>').attr('value', entry.abbreviation).text(entry.name));
+      if (key == "frames") {
+          $.each(entry, function (key2, entry2) {
+              dropdown.append($('<option></option>').attr('value', entry.name).text(entry2.name));
+          }
+           
+      }
+   
   })
 });
