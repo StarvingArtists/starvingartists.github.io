@@ -29,6 +29,7 @@ $.getJSON("values.json", function (data) {
       if (key == "frames") {
           $.each(entry, function (key2, entry2) {
               console.log(entry2.name)
+              console.log(dropdown)
               dropdown.append($('<option></option>').attr('value', entry.name).text(entry2.name));
               frameList.append($('<tr></tr>').attr('value', entry.name).text(entry2.name));
           })
