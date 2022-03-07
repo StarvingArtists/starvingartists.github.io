@@ -34,7 +34,7 @@ window.onload = function() {
     Object.entries(values).forEach(([objkey, value], index) => {
         Object.entries(value).forEach(([key, value], index) => {
             if(value != 0) {
-                $('#items').append(`<tr>
+                $(`#${objkey}Items`).append(`<tr>
                 <td>${key} (${objkey.charAt(0).toUpperCase() + objkey.slice(1)})</td>
                 <td>???</td>
                 <td>${value}</td>
