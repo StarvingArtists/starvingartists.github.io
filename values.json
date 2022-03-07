@@ -1,0 +1,43 @@
+{
+   "frames":[
+      {
+         "name":"New",
+         "rarity":"Common",
+         "value":"CreateNewDoc()",
+         "change":"+0"
+      },
+      {
+         "name":"New",
+         "rarity":"Common",
+         "value":"CreateNewDoc()",
+         "change":"+0"
+      },
+      {
+         "name":"New",
+         "rarity":"Common",
+         "value":"CreateNewDoc()",
+         "change":"+0"
+      }
+   ],
+   "effects":[
+      {
+         "name":"New",
+         "rarity":"Common",
+         "value":"CreateNewDoc()",
+         "change":"+0"
+      },
+      {
+         "name":"New",
+         "rarity":"Common",
+         "value":"CreateNewDoc()",
+         "change":"+0"
+      },
+      {
+         "name":"New",
+         "rarity":"Common",
+         "value":"CreateNewDoc()",
+         "change":"+0"
+      }
+   ]
+}
+}
