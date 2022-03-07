@@ -1,3 +1,7 @@
+$('.summable').change(function(){
+    alert($(this).val());
+})
+
 $(".summable").change(function() {
     console.log("Hi");
     var total = 0;
