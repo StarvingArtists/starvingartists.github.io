@@ -1,6 +1,5 @@
-console.log("Hi");
-
 $(".summable").change(function() {
+    console.log("Hi");
     var total = 0;
     $.each($(".summable") ,function() {
         total += parseInt($(this).val());
