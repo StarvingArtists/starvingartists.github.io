@@ -24,7 +24,7 @@ $.getJSON("values.json", function (data) {
       if (key == "frames") {
           $.each(entry, function (key2, entry2) {
               dropdown.append($('<option></option>').attr('value', entry.name).text(entry2.name));
-          }
+          })
            
       }
    
