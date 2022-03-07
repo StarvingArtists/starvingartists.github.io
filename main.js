@@ -1,4 +1,4 @@
-$('#frameDropdown').change(function(){
+$('.summable').change(function(){
     alert($(this).val());
 })
 
