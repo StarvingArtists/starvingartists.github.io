@@ -13,7 +13,7 @@ $(window).on("load resize ", function() {
   $('.tbl-header').css({'padding-right':scrollWidth});
 }).resize();
 
-let dropdown = $('#locality-dropdown');
+let dropdown = $('#frameDropdown');
 dropdown.empty();
 
 dropdown.append('<option selected="true" disabled>Choose State/Province</option>');
