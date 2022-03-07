@@ -1,8 +1,8 @@
-$('.summable').change(function(){
+$('#frameDropdown').change(function(){
     alert($(this).val());
 })
 
-$(".summable").change(function() {
+$(".frameDropdown").change(function() {
     console.log("Hi");
     var total = 0;
     $.each($(".summable") ,function() {
