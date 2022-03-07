@@ -1,3 +1,5 @@
+console.log("Hi");
+
 $(".summable").change(function() {
     var total = 0;
     $.each($(".summable") ,function() {
