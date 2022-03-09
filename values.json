@@ -1,42 +1,86 @@
 {
-   "frames":[
-      {
-         "name":"New",
-         "rarity":"Common",
-         "value":"1",
-         "change":"+0"
-      },
-      {
-         "name":"New",
-         "rarity":"Common",
-         "value":"1",
-         "change":"+0"
-      },
-      {
-         "name":"New",
-         "rarity":"Common",
-         "value":"1",
-         "change":"+0"
-      }
-   ],
-   "effects":[
-      {
-         "name":"New",
-         "rarity":"Common",
-         "value":"1",
-         "change":"+0"
-      },
-      {
-         "name":"New",
-         "rarity":"Common",
-         "value":"1",
-         "change":"+0"
-      },
-      {
-         "name":"New",
-         "rarity":"Common",
-         "value":"1",
-         "change":"+0"
-      }
-   ]
+    "frames": {
+        "decorative_frame": {
+            "append": "frameValues",
+            "src": "https://raw.githubusercontent.com/alpharmi/starving-artists/main/assets/decorative_frame.png",
+            "displayName": "Decorative Frame",
+            "rarity": "Common",
+            "value": 5,
+            "demand": 1
+        },
+        "bamboo_frame": {
+            "append": "frameValues",
+            "src": "https://raw.githubusercontent.com/alpharmi/starving-artists/main/assets/bamboo_frame.png",
+            "displayName": "Bamboo Frame",
+            "rarity": "Common",
+            "value": 15,
+            "demand": 1
+        },
+        "steampunk_frame": {
+            "append": "frameValues",
+            "src": "https://raw.githubusercontent.com/alpharmi/starving-artists/main/assets/steampunk_frame.png",
+            "displayName": "Steampunk Frame",
+            "rarity": "Common",
+            "value": 15,
+            "demand": 2
+        },
+        "lava_frame": {
+            "append": "frameValues",
+            "src": "https://raw.githubusercontent.com/alpharmi/starving-artists/main/assets/lava_frame.png",
+            "displayName": "Lava Frame",
+            "rarity": "Common",
+            "value": 60,
+            "demand": 3
+        },
+        "ice_frame": {
+            "append": "frameValues",
+            "src": "https://raw.githubusercontent.com/alpharmi/starving-artists/main/assets/ice_frame.png",
+            "displayName": "Ice Frame",
+            "rarity": "Common",
+            "value": 70,
+            "demand": 4
+        }
+    },
+    "effects": {
+        "cosmic_effect": {
+            "append": "effectValues",
+            "src": "https://raw.githubusercontent.com/alpharmi/starving-artists/main/assets/cosmic_effect.png",
+            "displayName": "Cosmic Effect",
+            "rarity": "",
+            "value": 250,
+            "demand": 4
+        },
+        "lighting_effect": {
+            "append": "effectValues",
+            "src": "https://raw.githubusercontent.com/alpharmi/starving-artists/main/assets/lighting_effect.png",
+            "displayName": "Lighting Effect",
+            "rarity": "",
+            "value": 70,
+            "demand": 3
+        },
+        "diamond_effect": {
+            "append": "effectValues",
+            "src": "https://raw.githubusercontent.com/alpharmi/starving-artists/main/assets/diamond_effect.png",
+            "displayName": "Diamond Effect",
+            "rarity": "",
+            "value": 40,
+            "demand": 2
+        },
+        "rainbow_effect": {
+            "append": "effectValues",
+            "src": "https://raw.githubusercontent.com/alpharmi/starving-artists/main/assets/rainbow_effect.png",
+            "displayName": "Rainbow Effect",
+            "rarity": "",
+            "value": 20,
+            "demand": 1
+        },
+        "gold_effect": {
+            "append": "effectValues",
+            "src": "https://raw.githubusercontent.com/alpharmi/starving-artists/main/assets/gold_effect.png",
+            "displayName": "Gold Effect",
+            "rarity": "",
+            "value": 15,
+            "demand": 1
+        }
+    }
 }

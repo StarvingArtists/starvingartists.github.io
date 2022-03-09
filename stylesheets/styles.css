@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap');
+
+:root {
+    --bgColorLight1: #F0F0F0;
+    --bgColorLight2: #FFFFFF;
+
+    --textColorLight1: #4B5563;
+    --textColorLight2: #111827;
+    --textColorLight3: #724BFF;
+}
+
+.itemContainer {
+    padding: 10px;
+
+    display: grid;
+    grid-template-areas: "image itemName"
+                         "image itemRarity"
+                         "image itemCost"
+                         "image itemDemand"
+                         "image nil";
+
+    grid-template-rows: auto auto auto 0.4fr 0.75fr;
+    justify-content: start;
+    justify-items: start;
+    align-items: start;
+    height: 140px;
+
+    background-color: var(--bgColorLight2);
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 1%);
+    border-radius: 10px;
+}
