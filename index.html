@@ -1,62 +1,70 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=PT+Sans:wght@400;700&family=Roboto:wght@100;300;400;500;700;900&family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
-    <script src="main.js"></script>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <br>
-    <select id="frameDropdown" class="centered-dropdown"></select>
-    <br>
-    <select id="effectDropdown" class="centered-dropdown"></select><br>
-    <p style="text-align: center;" id="sum">Total added value: 0</p>
-    <h1>Starving Artists Values</h1>
-    <section>
-      <!--for demo wrap-->
-      <div class="tbl-header">
-        <table cellpadding="0" cellspacing="0" border="0">
-          <thead>
-            <tr>
-              <th>Name</th>
-              <th>Rarity</th>
-              <th>Value</th>
-              <th>Change</th>
-            </tr>
-          </thead>
-        </table>
-      </div>
-      <div class="tbl-content">
-        <table cellpadding="0" cellspacing="0" border="0">
-          <tbody id="frameItems"></tbody>
-        </table>
-      </div>
-    </section>
-    
-    <section>
-    <div class="tbl-header">
-        <table cellpadding="0" cellspacing="0" border="0">
-          <thead>
-            <tr>
-              <th>Name</th>
-              <th>Rarity</th>
-              <th>Value</th>
-              <th>Change</th>
-            </tr>
-          </thead>
-        </table>
-      </div>
-      <div class="tbl-content">
-        <table cellpadding="0" cellspacing="0" border="0">
-          <tbody id="effectItems"></tbody>
-        </table>
-      </div>
-    </section>
-    <!-- follow me template -->
-    <div class="made-with-love">
-      Play the game here: 
-      <a target="_blank" href="https://www.roblox.com/games/8916037983">Starving Artists</a>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./stylesheets/styles.css">
+    <title>Starving Artists Value List</title>
+</head>
+<!--I was forced to use vanilla html, css, & js.-->
+<!--Yes I know I can make classes and deticate css to them, but no, this is easier.-->
+<body style="font-family: 'Roboto', sans-serif; margin: 0; background-color: var(--bgColorLight1);">
+<div class="__main" style="display: grid; grid-template-rows: 50px auto auto 500px;">
+    <header style="width: 100%; height: 50px; display: flex; align-items: center; background-color: var(--bgColorLight2); justify-content: space-between; justify-self: center; box-shadow: 0 2px 5px 0 rgb(0 0 0 / 1%)">
+        <div></div>
+        <h1 style="font-size: 20px; font-weight: 900; color: var(--textColorLight3); margin: 0;">Starving Artists Value List</h1>
+        <button id="changeTheme" style="width: 30px; height: 50px; margin-right: 10px; border: none; background: none;"><svg stroke="var(--textColorLight1)" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg></button>
+    </header>
+
+    <div style="margin: 30px; display: grid; grid-template-columns: 1fr 1fr;">
+        <div class="info" style="padding-left: 50px;">
+            <h1 style="font-size: 30px; font-weight: 900; color: var(--textColorLight2);">Notes & Info</h1>
+            <p style="font-size: 20px; color: var(--textColorLight1); margin: 3px;">• Values are related to in-game items within <a href="https://www.roblox.com/games/8916037983" style="color: var(--textColorLight3);">Starving Artists</a></p>
+            <p style="font-size: 20px; color: var(--textColorLight1); margin: 3px;">• Values are expected to change. Join our <a href="https://discord.gg/XnwWm3Ujje" style="color: var(--textColorLight3);">Discord</a> to keep up to date.</p>
+            <p style="font-size: 20px; color: var(--textColorLight1); margin: 3px;">• Values are not set, you decide if you'd like to follow them.</p>
+            <p style="font-size: 20px; color: var(--textColorLight1); margin: 3px;">• Last Updated March 8 2022 10:39 pm GMT.</p>
+        </div>
+        <div class="credits" style="display: grid; grid-template-rows: 75px 40px auto; height: 100%;">
+            <h1 style="font-size: 30px; font-weight: 900; color: var(--textColorLight2); height: 0px;">Credits</h1>
+            <div>
+                <span style="font-size: 20px; color: var(--textColorLight3); margin: 3px; display: inline-block;">• Intrance <span style="color: var(--textColorLight1);">Owner</span> </span>
+                <span style="font-size: 20px; color: var(--textColorLight3); margin: 3px; display: inline-block;">• LAGurlz <span style="color: var(--textColorLight1);">Owner</span> </span>
+            </div>
+            <div>
+                <span style="font-size: 20px; color: var(--textColorLight3); margin: 3px; display: inline-block;">• XxzythxX <span style="color: var(--textColorLight1);">Value Changer</span> </span>
+                <span style="font-size: 20px; color: var(--textColorLight3); margin: 3px; display: inline-block;">• Ahmad11 <span style="color: var(--textColorLight1);">Value Changer</span> </span>
+                <span style="font-size: 20px; color: var(--textColorLight3); margin: 3px; display: inline-block;">• RedNightBlade <span style="color: var(--textColorLight1);">Value Changer</span> </span>
+            </div>
+        </div>
     </div>
-  </body>
+
+    <div style="margin: 30px; padding-left: 50px; display: grid; grid-template-rows: 75px auto;">
+        <h1 style="font-size: 30px; font-weight: 900; color: var(--textColorLight2); height: 0px;">Frame Values</h1>
+        <div id="frameValues" style="width: auto; height: auto; display: grid; grid-template-columns: repeat(auto-fill, 400px); gap: 10px;">
+            <div id="exampleItemContainer" class="itemContainer">
+                <img src="../assets/bamboo_frame.png" style="max-width: 150px; grid-area: image;">
+                <h1 style="font-size: 20px; font-weight: 900; color: var(--textColorLight2); grid-area: itemName; margin: 0; padding-top: 22px;"></h1>
+                <span style="font-size: 17px; color: var(--textColorLight1); margin: 3px; display: inline-block; grid-area: itemRarity; margin: 0;">Rarity <span style="color: var(--textColorLight3);">Rairty</span> </span>
+                <span style="font-size: 17px; color: var(--textColorLight1); margin: 3px; display: inline-block; grid-area: itemCost; margin: 0;">Value <img src="https://raw.githubusercontent.com/alpharmi/starving-artists/main/assets/robux.png" width="15px"> <span style="color: var(--textColorLight3);">0</span> </span>
+                <span style="font-size: 17px; color: var(--textColorLight1); margin: 3px; display: inline-block; grid-area: itemDemand; margin: 0;">Demand </span>
+            </div>
+        </div>
+    </div>
+
+    <div style="margin: 30px; padding-left: 50px; display: grid; grid-template-rows: 75px auto;">
+        <h1 style="font-size: 30px; font-weight: 900; color: var(--textColorLight2); height: 0px;">Effect Values</h1>
+        <div id="effectValues" style="width: auto; height: auto; display: grid; grid-template-columns: repeat(auto-fill, 400px); gap: 10px;">
+            <div id="exampleItemContainer2" class="itemContainer">
+                <img src="../assets/bamboo_frame.png" style="max-width: 150px; grid-area: image;">
+                <h1 style="font-size: 20px; font-weight: 900; color: var(--textColorLight2); grid-area: itemName; margin: 0; padding-top: 22px;"></h1>
+                <span style="font-size: 17px; color: var(--textColorLight1); margin: 3px; display: inline-block; grid-area: itemRarity; margin: 0;">Rarity <span style="color: var(--textColorLight3);">Rairty</span> </span>
+                <span style="font-size: 17px; color: var(--textColorLight1); margin: 3px; display: inline-block; grid-area: itemCost; margin: 0;">Value <img src="https://raw.githubusercontent.com/alpharmi/starving-artists/main/assets/robux.png" width="15px"> <span style="color: var(--textColorLight3);">0</span> </span>
+                <span style="font-size: 17px; color: var(--textColorLight1); margin: 3px; display: inline-block; grid-area: itemDemand; margin: 0;">Demand </span>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="./js/index.js"></script>
+</body>
 </html>
