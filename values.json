@@ -5,15 +5,15 @@
             "src": "https://raw.githubusercontent.com/alpharmi/starving-artists/main/assets/decorative_frame.png",
             "displayName": "Decorative Frame",
             "rarity": "Common",
-            "value": 5,
-            "demand": 1
+            "value": 15,
+            "demand": 3
         },
         "bamboo_frame": {
             "append": "frameValues",
             "src": "https://raw.githubusercontent.com/alpharmi/starving-artists/main/assets/bamboo_frame.png",
             "displayName": "Bamboo Frame",
             "rarity": "Common",
-            "value": 15,
+            "value": 25,
             "demand": 1
         },
         "steampunk_frame": {
@@ -21,7 +21,7 @@
             "src": "https://raw.githubusercontent.com/alpharmi/starving-artists/main/assets/steampunk_frame.png",
             "displayName": "Steampunk Frame",
             "rarity": "Common",
-            "value": 15,
+            "value": 25,
             "demand": 2
         },
         "lava_frame": {
@@ -29,7 +29,7 @@
             "src": "https://raw.githubusercontent.com/alpharmi/starving-artists/main/assets/lava_frame.png",
             "displayName": "Lava Frame",
             "rarity": "Common",
-            "value": 60,
+            "value": 90,
             "demand": 3
         },
         "ice_frame": {
@@ -37,7 +37,7 @@
             "src": "https://raw.githubusercontent.com/alpharmi/starving-artists/main/assets/ice_frame.png",
             "displayName": "Ice Frame",
             "rarity": "Common",
-            "value": 70,
+            "value": 120,
             "demand": 4
         }
     },
