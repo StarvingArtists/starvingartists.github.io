@@ -7,9 +7,6 @@ fetch("https://raw.githubusercontent.com/StarvingArtists/starvingartists.github.
         const itemContainer = document.getElementById("exampleItemContainer").cloneNode(true)
         document.getElementById(item.append).append(itemContainer)
 
-        console.log(itemContainer.childNodes)
-        console.log(itemContainer.childNodes[9].childNodes)
-
         itemContainer.childNodes[1].src= item.src
         itemContainer.childNodes[3].textContent = item.displayName
         itemContainer.childNodes[5].childNodes[1].innerHTML = item.rarity
