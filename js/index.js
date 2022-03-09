@@ -1,5 +1,5 @@
 //load values
-fetch("https://raw.githubusercontent.com/alpharmi/starving-artists/main/values.json").then(response => response.json()).then(data => {
+fetch("https://raw.githubusercontent.com/StarvingArtists/starvingartists.github.io/main/values.json").then(response => response.json()).then(data => {
     for (i in data.frames) {
         item = data.frames[i]
         console.log(item.append)
