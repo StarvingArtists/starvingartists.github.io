@@ -12,7 +12,7 @@
             "append": "frameValues",
             "src": "https://raw.githubusercontent.com/alpharmi/starving-artists/main/assets/bamboo_frame.png",
             "displayName": "Bamboo Frame",
-            "rarity": "Common",
+            "rarity": "Uncommon",
             "value": 25,
             "demand": 1
         },
@@ -20,7 +20,7 @@
             "append": "frameValues",
             "src": "https://raw.githubusercontent.com/alpharmi/starving-artists/main/assets/steampunk_frame.png",
             "displayName": "Steampunk Frame",
-            "rarity": "Common",
+            "rarity": "Rare",
             "value": 25,
             "demand": 2
         },
@@ -28,7 +28,7 @@
             "append": "frameValues",
             "src": "https://raw.githubusercontent.com/alpharmi/starving-artists/main/assets/lava_frame.png",
             "displayName": "Lava Frame",
-            "rarity": "Common",
+            "rarity": "Legendary",
             "value": 90,
             "demand": 3
         },
@@ -36,7 +36,7 @@
             "append": "frameValues",
             "src": "https://raw.githubusercontent.com/alpharmi/starving-artists/main/assets/ice_frame.png",
             "displayName": "Ice Frame",
-            "rarity": "Common",
+            "rarity": "Epic",
             "value": 120,
             "demand": 4
         }
@@ -46,7 +46,7 @@
             "append": "effectValues",
             "src": "https://raw.githubusercontent.com/alpharmi/starving-artists/main/assets/cosmic_effect.png",
             "displayName": "Cosmic Effect",
-            "rarity": "",
+            "rarity": "Legendary",
             "value": 250,
             "demand": 4
         },
@@ -54,7 +54,7 @@
             "append": "effectValues",
             "src": "https://raw.githubusercontent.com/alpharmi/starving-artists/main/assets/lighting_effect.png",
             "displayName": "Lighting Effect",
-            "rarity": "",
+            "rarity": "Epic",
             "value": 70,
             "demand": 3
         },
@@ -62,7 +62,7 @@
             "append": "effectValues",
             "src": "https://raw.githubusercontent.com/alpharmi/starving-artists/main/assets/diamond_effect.png",
             "displayName": "Diamond Effect",
-            "rarity": "",
+            "rarity": "Rare",
             "value": 40,
             "demand": 2
         },
@@ -70,7 +70,7 @@
             "append": "effectValues",
             "src": "https://raw.githubusercontent.com/alpharmi/starving-artists/main/assets/rainbow_effect.png",
             "displayName": "Rainbow Effect",
-            "rarity": "",
+            "rarity": "Uncommon",
             "value": 20,
             "demand": 1
         },
@@ -78,7 +78,7 @@
             "append": "effectValues",
             "src": "https://raw.githubusercontent.com/alpharmi/starving-artists/main/assets/gold_effect.png",
             "displayName": "Gold Effect",
-            "rarity": "",
+            "rarity": "Common",
             "value": 15,
             "demand": 1
         }
