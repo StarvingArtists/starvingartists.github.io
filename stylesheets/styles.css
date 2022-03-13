@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap');
 
 :root {
-    --bgColorLight1: #C3E6FF;
-    --bgColorLight2: #73C4FE;
+    --bgColorLight1: rgb(250 220 86);
+    --bgColorLight2: rgb(236 186 64);
 
-    --textColorLight1: #000000;
-    --textColorLight2: #08434F;
-    --textColorLight3: #632DE8;
+    --textColorLight1: rgb(173 89 32);
+    --textColorLight2: rgb(173 89 32);
+    --textColorLight3: rgb(125 77 45);
 }
 
 .itemContainer {
