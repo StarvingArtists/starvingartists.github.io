@@ -2,7 +2,7 @@
     "frames": {
         "decorative_frame": {
             "append": "frameValues",
-            "src": "https://raw.githubusercontent.com/alpharmi/starving-artists/main/assets/decorative_frame.png",
+            "src": "https://raw.githubusercontent.com/StarvingArtists/starvingartists.github.io/main/assets/decorative_frame.png",
             "displayName": "Decorative Frame",
             "rarity": "Common",
             "value": 15,
@@ -10,7 +10,7 @@
         },
         "bamboo_frame": {
             "append": "frameValues",
-            "src": "https://raw.githubusercontent.com/alpharmi/starving-artists/main/assets/bamboo_frame.png",
+            "src": "https://raw.githubusercontent.com/StarvingArtists/starvingartists.github.io/main/assets/bamboo_frame.png",
             "displayName": "Bamboo Frame",
             "rarity": "Uncommon",
             "value": 25,
@@ -18,7 +18,7 @@
         },
         "steampunk_frame": {
             "append": "frameValues",
-            "src": "https://raw.githubusercontent.com/alpharmi/starving-artists/main/assets/steampunk_frame.png",
+            "src": "https://raw.githubusercontent.com/StarvingArtists/starvingartists.github.io/main/assets/steampunk_frame.png",
             "displayName": "Steampunk Frame",
             "rarity": "Rare",
             "value": 25,
@@ -26,7 +26,7 @@
         },
         "ice_frame": {
             "append": "frameValues",
-            "src": "https://raw.githubusercontent.com/alpharmi/starving-artists/main/assets/ice_frame.png",
+            "src": "https://raw.githubusercontent.com/StarvingArtists/starvingartists.github.io/main/assets/ice_frame.png",
             "displayName": "Ice Frame",
             "rarity": "Epic",
             "value": 120,
@@ -34,7 +34,7 @@
         },
         "lava_frame": {
             "append": "frameValues",
-            "src": "https://raw.githubusercontent.com/alpharmi/starving-artists/main/assets/lava_frame.png",
+            "src": "https://raw.githubusercontent.com/StarvingArtists/starvingartists.github.io/main/assets/lava_frame.png",
             "displayName": "Lava Frame",
             "rarity": "Legendary",
             "value": 90,
@@ -44,7 +44,7 @@
     "effects": {
         "gold_effect": {
             "append": "effectValues",
-            "src": "https://raw.githubusercontent.com/alpharmi/starving-artists/main/assets/gold_effect.png",
+            "src": "https://raw.githubusercontent.com/StarvingArtists/starvingartists.github.io/main/assets/gold_effect.png",
             "displayName": "Gold Effect",
             "rarity": "Common",
             "value": 15,
@@ -52,7 +52,7 @@
         },
          "rainbow_effect": {
             "append": "effectValues",
-            "src": "https://raw.githubusercontent.com/alpharmi/starving-artists/main/assets/rainbow_effect.png",
+            "src": "https://raw.githubusercontent.com/StarvingArtists/starvingartists.github.io/main/assets/rainbow_effect.png",
             "displayName": "Rainbow Effect",
             "rarity": "Uncommon",
             "value": 20,
@@ -60,7 +60,7 @@
         },
         "diamond_effect": {
             "append": "effectValues",
-            "src": "https://raw.githubusercontent.com/alpharmi/starving-artists/main/assets/diamond_effect.png",
+            "src": "https://raw.githubusercontent.com/StarvingArtists/starvingartists.github.io/main/assets/diamond_effect.png",
             "displayName": "Diamond Effect",
             "rarity": "Rare",
             "value": 40,
@@ -68,7 +68,7 @@
         },
          "lighting_effect": {
             "append": "effectValues",
-            "src": "https://raw.githubusercontent.com/alpharmi/starving-artists/main/assets/lighting_effect.png",
+            "src": "https://raw.githubusercontent.com/StarvingArtists/starvingartists.github.io/main/assets/lighting_effect.png",
             "displayName": "Lighting Effect",
             "rarity": "Epic",
             "value": 70,
@@ -76,7 +76,7 @@
         },
          "cosmic_effect": {
             "append": "effectValues",
-            "src": "https://raw.githubusercontent.com/alpharmi/starving-artists/main/assets/cosmic_effect.png",
+            "src": "https://raw.githubusercontent.com/StarvingArtists/starvingartists.github.io/main/assets/cosmic_effect.png",
             "displayName": "Cosmic Effect",
             "rarity": "Legendary",
             "value": 250,
