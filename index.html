@@ -1,74 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./stylesheets/styles.css">
-    <link rel="icon" type="image/x-icon" href="https://raw.githubusercontent.com/alpharmi/starving-artists/main/assets/icon.ico">
-    <title>Starving Artists Value List</title>
-</head>
-<!--I was forced to use vanilla html, css, & js.-->
-<!--Yes I know I can make classes and deticate css to them, but no, this is easier.-->
-<body style="font-family: 'Roboto', sans-serif; margin: 0; background-color: var(--bgColorLight1);">
-<div class="__main" style="display: grid; grid-template-rows: 50px auto auto 500px;">
-    <header style="width: 100%; height: 50px; display: flex; align-items: center; background-color: var(--bgColorLight2); justify-content: space-between; justify-self: center; box-shadow: 0 2px 5px 0 rgb(0 0 0 / 1%)">
-        <div></div>
-        <h1 style="font-size: 20px; font-weight: 900; color: var(--textColorLight3); margin: 0;">Starving Artists Value List</h1>
-        <button id="changeTheme" style="width: 30px; height: 50px; margin-right: 10px; border: none; background: none;"><svg stroke="var(--textColorLight1)" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg></button>
-    </header>
+  <head>
+    <!-- 
+      This is an HTML comment
+      You can write text in a comment and the content won't be visible in the page
+    -->
 
-    <div style="margin: 30px; display: grid; grid-template-columns: 1fr 1fr;">
-        <div class="info" style="padding-left: 50px;">
-            <h1 style="font-size: 30px; font-weight: 900; color: var(--textColorLight2);">Notes & Info</h1>
-            <p style="font-size: 20px; color: var(--textColorLight1); margin: 3px;">• Values are related to in-game items within <a href="https://www.roblox.com/games/8916037983" style="color: var(--textColorLight3);">Starving Artists</a></p>
-            <p style="font-size: 20px; color: var(--textColorLight1); margin: 3px;">• Values are expected to change. Join our <a href="https://discord.gg/XnwWm3Ujje" style="color: var(--textColorLight3);">Discord</a> to keep up to date.</p>
-            <p style="font-size: 20px; color: var(--textColorLight1); margin: 3px;">• Values are not set in stone! You decide if you'd like to follow them.</p>
-            <p style="font-size: 20px; color: var(--textColorLight1); margin: 3px;">• Last Updated March 8 2022 10:39 pm GMT.</p>
-        </div>
-        <div class="credits" style="display: grid; grid-template-rows: 75px 40px auto; height: 100%;">
-            <h1 style="font-size: 30px; font-weight: 900; color: var(--textColorLight2); height: 0px;">Credits</h1>
-            <div>
-                <span style="font-size: 20px; color: var(--textColorLight3); margin: 3px; display: inline-block;">• Intrance <span style="color: var(--textColorLight1);">Owner</span> </span>
-                <span style="font-size: 20px; color: var(--textColorLight3); margin: 3px; display: inline-block;">• LAGurlz <span style="color: var(--textColorLight1);">Owner</span> </span>
-            </div>
-            <div>
-                <span style="font-size: 20px; color: var(--textColorLight3); margin: 3px; display: inline-block;">• alphajpeg <span style="color: var(--textColorLight1);">Website Creator</span> </span>
-            </div>
-            <div>
-                <span style="font-size: 20px; color: var(--textColorLight3); margin: 3px; display: inline-block;">• XxzythxX <span style="color: var(--textColorLight1);">Value Changer</span> </span>
-                <span style="font-size: 20px; color: var(--textColorLight3); margin: 3px; display: inline-block;">• Ahmad11 <span style="color: var(--textColorLight1);">Value Changer</span> </span>
-                <span style="font-size: 20px; color: var(--textColorLight3); margin: 3px; display: inline-block;">• RedNightBlade <span style="color: var(--textColorLight1);">Value Changer</span> </span>
-            </div>
-        </div>
-    </div>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
 
-    <div style="margin: 30px; padding-left: 50px; display: grid; grid-template-rows: 75px auto;">
-        <h1 style="font-size: 30px; font-weight: 900; color: var(--textColorLight2); height: 0px;">Frame Values</h1>
-        <div id="frameValues" style="width: auto; height: auto; display: grid; grid-template-columns: repeat(auto-fill, 400px); gap: 10px;">
-            <div id="exampleItemContainer" class="itemContainer">
-                <img src="../assets/bamboo_frame.png" style="max-width: 150px; grid-area: image;">
-                <h1 style="font-size: 20px; font-weight: 900; color: var(--textColorLight2); grid-area: itemName; margin: 0; padding-top: 22px;"></h1>
-                <span style="font-size: 17px; color: var(--textColorLight1); margin: 3px; display: inline-block; grid-area: itemRarity; margin: 0;">Rarity <span style="color: var(--textColorLight3);">Rairty</span> </span>
-                <span style="font-size: 17px; color: var(--textColorLight1); margin: 3px; display: inline-block; grid-area: itemCost; margin: 0;">Value <img src="https://raw.githubusercontent.com/alpharmi/starving-artists/main/assets/robux.png" width="15px"> <span style="color: var(--textColorLight3);">0</span> </span>
-                <span style="font-size: 17px; color: var(--textColorLight1); margin: 3px; display: inline-block; grid-area: itemDemand; margin: 0;">Demand </span>
-            </div>
-        </div>
-    </div>
+    <!--
+      This is the page head - it contains info the browser uses
+      Like the title, which appears on the browser tab but not inside the page
+      Further down you'll see the content that displays in the page
+    -->
+    <title>Hello World!</title>
 
-    <div style="margin: 30px; padding-left: 50px; display: grid; grid-template-rows: 75px auto;">
-        <h1 style="font-size: 30px; font-weight: 900; color: var(--textColorLight2); height: 0px;">Effect Values</h1>
-        <div id="effectValues" style="width: auto; height: auto; display: grid; grid-template-columns: repeat(auto-fill, 400px); gap: 10px;">
-            <div id="exampleItemContainer2" class="itemContainer">
-                <img src="../assets/bamboo_frame.png" style="max-width: 150px; grid-area: image;">
-                <h1 style="font-size: 20px; font-weight: 900; color: var(--textColorLight2); grid-area: itemName; margin: 0; padding-top: 22px;"></h1>
-                <span style="font-size: 17px; color: var(--textColorLight1); margin: 3px; display: inline-block; grid-area: itemRarity; margin: 0;">Rarity <span style="color: var(--textColorLight3);">Rairty</span> </span>
-                <span style="font-size: 17px; color: var(--textColorLight1); margin: 3px; display: inline-block; grid-area: itemCost; margin: 0;">Value <img src="https://raw.githubusercontent.com/alpharmi/starving-artists/main/assets/robux.png" width="15px"> <span style="color: var(--textColorLight3);">0</span> </span>
-                <span style="font-size: 17px; color: var(--textColorLight1); margin: 3px; display: inline-block; grid-area: itemDemand; margin: 0;">Demand </span>
-            </div>
+    <!-- The website stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- The website JavaScript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <!--
+      The body includes the content you see in the page
+      Each element is defined using tags, like this <div></div>
+      The attributes like class="wrapper" let us style elements in the CSS
+    -->
+    <div class="wrapper">
+      <div class="content" role="main">
+        <h1 class="title">Hello World!</h1>
+        <img
+          src="https://cdn.glitch.com/a9975ea6-8949-4bab-addb-8a95021dc2da%2Fillustration.svg?v=1618177344016"
+          class="illustration"
+          alt="Editor illustration"
+          title="Click the image!"
+        />
+        <div class="instructions">
+          <h2>Using this project</h2>
+          <p>
+            This is the Glitch <strong>Hello Website</strong> project. You can
+            use it to build your own site. Check out the code in the editor and
+            open the
+            <span class="fileopener" data-file="TODO.md" data-line="0"
+              >TODO</span
+            >
+            for next steps!
+          </p>
+          <!--  🚧 TODO: ADD BUTTON HERE -->
+          <button>Click me!</button>
+
+          <!-- Once you've added the button from TODO.md, click it in the page -->
+          <!-- Check out the function in script.js to see how it works -->
         </div>
+      </div>
     </div>
-</div>
-<script src="./js/index.js"></script>
-</body>
+    <!-- The footer holds our remix button — you can keep or delete it ✂ -->
+    <footer class="footer">
+      <div class="links"></div>
+      <a
+        class="btn--remix"
+        target="_top"
+        href="https://glitch.com/edit/#!/remix/glitch-hello-website"
+      >
+        <img
+          src="https://cdn.glitch.com/605e2a51-d45f-4d87-a285-9410ad350515%2FLogo_Color.svg?v=1618199565140"
+          alt=""
+        />
+        Remix on Glitch
+      </a>
+    </footer>
+  </body>
 </html>
